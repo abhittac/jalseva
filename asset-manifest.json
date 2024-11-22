@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jalseva/static/css/main.9cd6c10c.css",
+    "main.js": "/jalseva/static/js/main.b8e4e72e.js",
+    "static/js/453.b6bfaa59.chunk.js": "/jalseva/static/js/453.b6bfaa59.chunk.js",
+    "static/media/logo.svg": "/jalseva/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/jalseva/index.html",
+    "main.9cd6c10c.css.map": "/jalseva/static/css/main.9cd6c10c.css.map",
+    "main.b8e4e72e.js.map": "/jalseva/static/js/main.b8e4e72e.js.map",
+    "453.b6bfaa59.chunk.js.map": "/jalseva/static/js/453.b6bfaa59.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cd6c10c.css",
+    "static/js/main.b8e4e72e.js"
+  ]
+}
