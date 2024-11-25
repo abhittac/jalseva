@@ -26,7 +26,7 @@ const Navbar = () => {
               <a
                 key={item.title}
                 href={item.href}
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 border-b-2 border-transparent hover:border-blue-500"
               >
                 {item.title}
               </a>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 <a
                   key={item.title}
                   href={item.href}
-                  className="block text-gray-600 hover:text-gray-900 hover:bg-gray-50 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
+                  className="block text-gray-600 hover:text-gray-900 hover:bg-blue-100 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 border-b-2 border-transparent hover:border-blue-500"
                 >
                   {item.title}
                 </a>

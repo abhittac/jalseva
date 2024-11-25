@@ -49,32 +49,73 @@ const Banner = () => {
           </div>
 
           {/* Trust Indicators */}
-          <div className="mt-12 flex gap-8 text-white text-lg">
-            <div className="flex items-center gap-2">
-              <div className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-500/20">
-                <span className="text-2xl">💧</span>
-              </div>
-              <span>Advanced RO Filtration</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-500/20">
-                <span className="text-2xl">🛠️</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-medium">24/7 Service Available</span>
-                <span className="text-sm text-gray-300">Installation • Maintenance • Repair</span>
-              </div>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-500/20">
-                <span className="text-2xl">🚚</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-medium">Quick Delivery</span>
-                <span className="text-sm text-gray-300">At Your Doorstep</span>
-              </div>
-            </div>
-          </div>
+      
+
+
+          <div className="mt-12 md:mt-12">
+  {/* Mobile version: One below the other, center-aligned */}
+  <div className="md:hidden flex flex-col  gap-4 pb-4 text-white text-lg">
+    <div className="flex  gap-2">
+      <div className="w-12 h-12 flex  justify-center rounded-full bg-blue-500/20">
+        <span className="text-2xl m-2">💧</span>
+      </div>
+      <span className="text-center">Advanced RO Filtration</span>
+    </div>
+    
+    <div className="flex  gap-2">
+      <div className="w-12 h-12 flex  justify-center rounded-full bg-blue-500/20">
+        <span className="text-2xl m-2">🛠️</span>
+      </div>
+      <div className="flex flex-col ">
+        <span className="font-medium">24/7 Service Available</span>
+        <span className="text-sm text-gray-300">Installation • Maintenance • Repair</span>
+      </div>
+    </div>
+    
+    <div className="flex  gap-2">
+      <div className="w-12 h-12 flex  justify-center rounded-full bg-blue-500/20">
+        <span className="text-2xl m-2">🚚</span>
+      </div>
+      <div className="flex flex-col ">
+        <span className="font-medium">Quick Delivery</span>
+        <span className="text-sm text-gray-300">At Your Doorstep</span>
+      </div>
+    </div>
+  </div>
+
+  {/* Desktop normal version */}
+  <div className="hidden md:flex gap-8 text-white text-lg">
+    <div className="flex items-center gap-2">
+      <div className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-500/20">
+        <span className="text-2xl m-2">💧</span>
+      </div>
+      <span>Advanced RO Filtration</span>
+    </div>
+    
+    <div className="flex items-center gap-2">
+      <div className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-500/20">
+        <span className="text-2xl">🛠️</span>
+      </div>
+      <div className="flex flex-col">
+        <span className="font-medium">24/7 Service Available</span>
+        <span className="text-sm text-gray-300">Installation • Maintenance • Repair</span>
+      </div>
+    </div>
+    
+    <div className="flex items-center gap-2">
+      <div className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-500/20">
+        <span className="text-2xl">🚚</span>
+      </div>
+      <div className="flex flex-col">
+        <span className="font-medium">Quick Delivery</span>
+        <span className="text-sm text-gray-300">At Your Doorstep</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+
         </div>
       </div>
     </div>
