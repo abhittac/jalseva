@@ -6,6 +6,7 @@ import Contact from './Contact';
 import ServiceCards from './ServiceCards';
 import { useRef } from 'react';
 import Footer from './Footer';
+import ProductList from './ProductList';
 
 function App() {
   const serviceRef = useRef(null);
@@ -26,7 +27,7 @@ function App() {
       <div ref={serviceRef}>
         <ServiceCards />
       </div>
-      
+      <ProductList/>
       <div ref={contactRef}>
         <Contact />
       </div>
