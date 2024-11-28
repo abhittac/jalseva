@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/jalseva/static/css/main.78f8991a.css",
-    "main.js": "/jalseva/static/js/main.d712f3d3.js",
+    "main.css": "/jalseva/static/css/main.5c3bb7c1.css",
+    "main.js": "/jalseva/static/js/main.03e4ba37.js",
     "static/js/453.b6bfaa59.chunk.js": "/jalseva/static/js/453.b6bfaa59.chunk.js",
     "static/media/banner.mp4": "/jalseva/static/media/banner.0f6e8cf1a5724984c0cf.mp4",
+    "static/media/p3.jpg": "/jalseva/static/media/p3.7bb0c6564444e102c3fd.jpg",
+    "static/media/p1.jpg": "/jalseva/static/media/p1.6833dd491de4fcd6e542.jpg",
+    "static/media/p2.jpg": "/jalseva/static/media/p2.40c149a2316145cd0eb1.jpg",
+    "static/media/p4.webp": "/jalseva/static/media/p4.65391a88bef87a5aa369.webp",
     "static/media/logo.svg": "/jalseva/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/jalseva/index.html",
-    "main.78f8991a.css.map": "/jalseva/static/css/main.78f8991a.css.map",
-    "main.d712f3d3.js.map": "/jalseva/static/js/main.d712f3d3.js.map",
+    "main.5c3bb7c1.css.map": "/jalseva/static/css/main.5c3bb7c1.css.map",
+    "main.03e4ba37.js.map": "/jalseva/static/js/main.03e4ba37.js.map",
     "453.b6bfaa59.chunk.js.map": "/jalseva/static/js/453.b6bfaa59.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78f8991a.css",
-    "static/js/main.d712f3d3.js"
+    "static/css/main.5c3bb7c1.css",
+    "static/js/main.03e4ba37.js"
   ]
 }
